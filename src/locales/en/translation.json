@@ -1,0 +1,12 @@
+{
+    "sectionOne": {
+        "login": "Sign in",
+        "register": "Sign up",
+        "title1": "Generating automatically chat",
+        "title2": "messages",
+        "description": "Our page works on web for all devices, so you only have to login and use it easily.",
+        "contact": "Contact",
+        "learnMore": "Learn more",
+        "watchVideo": "Watch intro video"
+    }
+}
