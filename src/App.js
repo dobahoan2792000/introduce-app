@@ -3,6 +3,8 @@ import Banner from "./components/banner";
 import Features from "./components/features";
 import Hero from "./components/hero";
 import Header from "./components/ui/header";
+import Block from "./components/block";
+import Footer from "./components/ui/footer";
 
 function App() {
   return (
@@ -11,6 +13,8 @@ function App() {
       <Header />
       <Hero />
       <Features />
+      <Block />
+      <Footer />
     </div>
   );
 }

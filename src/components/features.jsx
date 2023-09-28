@@ -2,10 +2,11 @@ import { useState, useRef, useEffect } from "react";
 import { Transition } from "@headlessui/react";
 import FeaturesBg from "../assets/images/features-bg.png";
 import FeaturesElement from "../assets/images/features-element.png";
+import { useTranslation } from "react-i18next";
 
 export default function Features() {
   const [tab, setTab] = useState(1);
-
+  const {t} =  useTranslation();
   const tabs = useRef(null);
 
   const heightFix = () => {
@@ -30,11 +31,9 @@ export default function Features() {
         <div className="pt-12 md:pt-20">
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <h1 className="h2 mb-4">Explore the solutions</h1>
+            <h1 className="h2 mb-4">{t('sectionTwo.explore')}</h1>
             <p className="text-xl text-gray-600">
-              Duis aute irure dolor in reprehenderit in voluptate velit esse
-              cillum dolore eu fugiat nulla pariatur excepteur sint occaecat
-              cupidatat.
+            {t('sectionTwo.description')}
             </p>
           </div>
 
@@ -46,11 +45,9 @@ export default function Features() {
               data-aos="fade-right"
             >
               <div className="md:pr-4 lg:pr-12 xl:pr-16 mb-8">
-                <h3 className="h3 mb-3">Powerful suite of tools</h3>
+                <h3 className="h3 mb-3"> {t('sectionTwo.power')}</h3>
                 <p className="text-xl text-gray-600">
-                  Duis aute irure dolor in reprehenderit in voluptate velit esse
-                  cillum dolore pariatur. Excepteur sint occaecat cupidatat non
-                  proident, sunt in culpa.
+                {t('sectionTwo.description2')}
                 </p>
               </div>
               {/* Tabs buttons */}
@@ -69,11 +66,10 @@ export default function Features() {
                 >
                   <div>
                     <div className="font-bold leading-snug tracking-tight mb-1">
-                      Building the Simple ecosystem
+                    {t('sectionTwo.build1')}
                     </div>
                     <div className="text-gray-600">
-                      Take collaboration to the next level with security and
-                      administrative features built for teams.
+                    {t('sectionTwo.descriptionBuild1')}
                     </div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
@@ -100,11 +96,10 @@ export default function Features() {
                 >
                   <div>
                     <div className="font-bold leading-snug tracking-tight mb-1">
-                      Building the Simple ecosystem
+                    {t('sectionTwo.build2')}
                     </div>
                     <div className="text-gray-600">
-                      Take collaboration to the next level with security and
-                      administrative features built for teams.
+                    {t('sectionTwo.descriptionBuild2')}
                     </div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
@@ -134,11 +129,10 @@ export default function Features() {
                 >
                   <div>
                     <div className="font-bold leading-snug tracking-tight mb-1">
-                      Building the Simple ecosystem
+                    {t('sectionTwo.build3')}
                     </div>
                     <div className="text-gray-600">
-                      Take collaboration to the next level with security and
-                      administrative features built for teams.
+                    {t('sectionTwo.descriptionBuild3')}
                     </div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">

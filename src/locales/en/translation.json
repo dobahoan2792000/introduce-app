@@ -8,5 +8,22 @@
         "contact": "Contact",
         "learnMore": "Learn more",
         "watchVideo": "Watch intro video"
+    },
+    "sectionTwo": {
+        "explore": "Explore the features",
+        "description": "Strong built-in features easily to use",
+        "power": "Functions of tool",
+        "description2": "Creating video chats from user's settings",
+        "build1": "Messenger",
+        "descriptionBuild1": "Creating video with messenger quickly(both mobile and desktop)",
+        "build2": "Telegram",
+        "descriptionBuild2": "Creating video with telegram quickly",
+        "build3": "And many upcoming platforms: iMessage, ChatApps,...",
+        "descriptionBuild3": "Release soon"
+
+    },
+    "sectionThree": {
+        "contact": "Choose one of the contact methods below to trial and use our product",
+        "desc": "After contact we will prodive you an account to trial the product and you can decide to you it or not"
     }
 }

@@ -8,5 +8,22 @@
         "contact": "Liên hệ",
         "learnMore": "Tìm hiểu thêm",
         "watchVideo": "Xem video giới thiệu"
+    },
+    "sectionTwo": {
+        "explore": "Khám phá tính năng",
+        "description": "Các tính năng mạnh mẽ, tích hợp sẵn dễ sử dụng",
+        "power": "Chức năng của tool",
+        "description2": "Tạo ra các video chat từ những cài đặt của người dùng",
+        "build1": "Tạo video với messenger",
+        "descriptionBuild1": "Tạo ra các video với nền tảng messenger 1 cách nhanh chóng (cả desktop lẫn mobile)",
+        "build2": "Tạo video với telegram",
+        "descriptionBuild2": "Tạo ra các video với nền tảng telegram 1 cách nhanh chóng",
+        "build3": "Và vô nền tảng khác đang cập nhật: iMessage, ChatApps,...",
+        "descriptionBuild3": "Các nền tảng sẽ sớm xuất hiện trên website"
+
+    },
+    "sectionThree": {
+        "contact": "Vui lòng chọn 1 trong các phương thức liên hệ bên dưới",
+        "desc": "Sau khi liên hệ bên chúng tôi sẽ cung cấp account để bạn có thể thử dùng sản phẩm và quyết định có mua sản phẩm của chúng tôi không"
     }
 }
